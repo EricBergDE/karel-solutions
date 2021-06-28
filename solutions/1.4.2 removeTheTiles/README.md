@@ -18,4 +18,4 @@ void removeTheTiles() {
 
 ## Erklärung
 
-Siehe auch [tileTheFloor](https://github.com/lukasnehrke/karel-solutions/tree/main/1.3.4%20tileTheFloor).
+Siehe auch [tileTheFloor](../1.3.4%20tileTheFloor).
