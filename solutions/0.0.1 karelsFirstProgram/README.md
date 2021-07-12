@@ -1,4 +1,4 @@
-# 0.0.1 karolsFirstProgram
+# 0.0.1 karelsFirstProgram
 
 ## Lösung
 

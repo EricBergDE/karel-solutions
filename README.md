@@ -10,7 +10,7 @@ Wenn du mit deinem Code nicht weiterkommst, frag am besten im Discord unter [#ka
 [Karel](https://github.com/fredoverflow/karel) ist eine Software für Programmieranfänger.
 
 ## Inhalt
-  - [0.0.1 (karolsFirstProgram)](./solutions/0.0.1%20karolsFirstProgram)
+  - [0.0.1 (karelsFirstProgram)](./solutions/0.0.1%20karelsFirstProgram)
   - [1.1.1 (obtainArtifact)](./solutions/1.1.1%20obtainArtifact)
   - [1.1.2 (defuseOneBomb)](./solutions/1.1.2%20defuseOneBomb)
   - [1.1.3 (defuseTwoBombs)](./solutions/1.1.3%20defuseTwoBombs)
