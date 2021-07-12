@@ -7,12 +7,13 @@ Ansonsten werden alle Beeper der Spalte entfernt.
 
 ```java
 void quantize() {
-    while (frontIsClear()) {
+    repeat (10) {
         updateCode();
         turnLeft();
-        moveForward();
+        if (frontIsClear()) {
+            moveForward();    
+        }
     }
-    updateCode();
 }
 
 void updateCode() {
