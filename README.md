@@ -30,6 +30,7 @@ Wenn du mit deinem Code nicht weiterkommst, frag am besten im Discord unter [#ka
   - [2.1.2 (followTheSeeds)](./solutions/2.1.2%20followTheSeeds)
   - [2.1.3 (cleanTheTunnels)](./solutions/2.1.3%20cleanTheTunnels)
   - [2.4.2 (quantize)](./solutions/2.4.2%20quantize)
+  - [2.4.3 (addFast)](./solutions/2.4.3%20addFast)
   - [3.1.1 (partyAgain)](./solutions/3.1.1%20partyAgain)
   - [3.2.1 (secureTheCave)](./solutions/3.2.1%20secureTheCave)
   - [3.2.2 (layAndRemoveTiles)](./solutions/3.2.2%20layAndRemoveTiles)
