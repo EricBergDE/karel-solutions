@@ -3,31 +3,37 @@
 ## Lösung von [@EricBergDE](https://github.com/EricBergDE)
 
 ```java
-void cleanTheRoom()
-{
-    repeat (5){ 
+void cleanTheRoom() {
+    repeat (5) { 
         cleanALine();
         leftTurn();
         cleanALine();
-        if (rightIsClear()){
+        if (rightIsClear()) {
             rightTurn();
         }
     }
 }
 
-void cleanALine()
-{
-    repeat (10){
-        if (onBeeper()){
+void cleanALine() {
+    repeat (10) {
+        if (onBeeper()) {
             pickBeeper();
-            if (frontIsClear()){
-                moveForward();
-            }
-        } else {
-            if (frontIsClear()){
-                moveForward();
-            }
+        }
+        if (frontIsClear()) {
+            moveForward();
         }
     }
+}
+
+void leftTurn() {
+    turnLeft();
+    moveForward();
+    turnLeft();
+}
+
+void rightTurn() {
+    turnRight();
+    moveForward();
+    turnRight();
 }
 ```
