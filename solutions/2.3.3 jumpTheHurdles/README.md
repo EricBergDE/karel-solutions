@@ -3,7 +3,21 @@
 ## Lösung
 
 ```java
-void jumpTheHurdles() {
-    /* t.b.d. */
+void jumpTheHurdles()
+{
+    turnLeft();
+    while (!onBeeper()) {  
+        while (!rightIsClear()) {
+            moveForward();
+        }
+        turnRight();
+        moveForward();
+        turnRight();
+        while (frontIsClear()) {
+            moveForward();
+        }
+        turnAround();
+    }
+    pickBeeper();
 }
 ```
