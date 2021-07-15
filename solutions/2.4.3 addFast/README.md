@@ -1,6 +1,6 @@
 # 2.4.3 addFast
 
-## Lösung
+## Lösung von [@ron-png](https://github.com/ron-png)
 
 ```java
 void addFast() {
@@ -73,5 +73,3 @@ void setSumAndCarryBit() {
     dropBeeper();
 }
 ```
-
-(Lösung von @ron-png, leicht abgeändert)
