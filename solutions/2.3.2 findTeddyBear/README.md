@@ -3,7 +3,26 @@
 ## Lösung
 
 ```java
-void findTeddyBear() {
-    /* t.b.d. */
+void findTeddyBear()
+{
+    walkToEdge();
+    while (!onBeeper()) {
+        walkAlongEdge();
+    }
+    pickBeeper();
 }
+
+void walkToEdge()
+{
+    while (frontIsClear() && !onBeeper()) {
+        moveForward();
+    }
+}
+
+void walkAlongEdge()
+{
+    turnLeft();
+    walkToEdge();
+}
+
 ```
