@@ -3,7 +3,7 @@
 ## Lösung
 
 ```java
-void saveTheFlower() {
+void jumpTheHurdles() {
     /* t.b.d. */
 }
 ```
