@@ -3,7 +3,17 @@
 ## Lösung
 
 ```java
-void solveTheMaze() {
- /* t.b.d. */
+void solveTheMaze()
+{
+    while (!onBeeper()) {
+        if (frontIsClear()) {
+            moveForward();
+        } else if (leftIsClear()) {
+            turnLeft();
+        } else {
+            turnRight();
+        }
+    }
+    pickBeeper();
 }
 ```
