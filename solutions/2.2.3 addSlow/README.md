@@ -5,7 +5,7 @@
 ```java
 void addSlow()
 {
-    while (frontIsClear() || rightIsClear()) {
+    while (frontIsClear()) {
         decrement();
         changeToSecond();
         increment();
