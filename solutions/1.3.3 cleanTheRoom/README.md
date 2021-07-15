@@ -1,43 +1,33 @@
 # 1.3.3 cleanTheRoom
 
-## Lösung
+## Lösung von [@EricBergDE](https://github.com/EricBergDE)
 
 ```java
-void cleanTheRoom() {
-    repeat (4) {
-        moveRight();
-        moveLeft();
-    }
-    moveRight();
-    moveAndPick();
-}
-
-void moveRight() {
-    moveAndPick();
-    turnLeft();
-    maybePick();
-    moveForward();
-    turnLeft();
-}
-
-void moveLeft() {
-    moveAndPick();
-    turnRight();
-    maybePick();
-    moveForward();
-    turnRight();
-}
-
-void moveAndPick() {
-    repeat (9) {
-        maybePick();
-        moveForward();
+void cleanTheRoom()
+{
+    repeat (5){ 
+        cleanALine();
+        leftTurn();
+        cleanALine();
+        if (rightIsClear()){
+            rightTurn();
+        }
     }
 }
 
-void maybePick() {
-    if (onBeeper()) {
-        pickBeeper();
+void cleanALine()
+{
+    repeat (10){
+        if (onBeeper()){
+            pickBeeper();
+            if (frontIsClear()){
+                moveForward();
+            }
+        } else {
+            if (frontIsClear()){
+                moveForward();
+            }
+        }
     }
 }
 ```
